@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Iman  Hamid | blank</title>
+<title>Iman  Hamid | admixture and rapid human evolution</title>
 <meta name="description" content="Decoding human history by analyzing our DNA
 ">
 
@@ -29,7 +29,7 @@
 <link rel="shortcut icon" href="/assets/img/favicon.ico">
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/admixture_stats/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -94,7 +94,7 @@
           </li>
           
           <!-- Blog 
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link" href="/blog/">
               blog
               
@@ -173,58 +173,53 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1>imanhamid</h1>
-    <h2>a simple whitespace theme for academics</h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">admixture and rapid human evolution</h1>
+    <p class="post-description">developing methods and statistics tailored for populations with mixed ancestry</p>
+  </header>
 
+  <article>
+    <p><strong>This is an ongoing project as part of my dissertation thesis</strong></p>
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/github-metadata/">a post with github metadata</a></h3>
-        <p class="post-meta">September 28, 2020</p>
-        <p>a quick run down on accessing github metadata.</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2018/distill/">a distill-style blog post</a></h3>
-        <p class="post-meta">December 22, 2018</p>
-        <p>an example of a distill-style blog post and main elements</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2015/comments/">a post with comments</a></h3>
-        <p class="post-meta">October 20, 2015</p>
-        <p>an example of a blog post with comments</p>
-      </li>
-    
-  </ul>
+<p>Natural selection impacts human attributes from lactase persistence to high altitude adaptation. This is typically thought of as a slow and ancient process. In reality, we are still evolving. Humans continuously encounter new environments and selective pressures, especially as a result of recent migrations in the past few centuries. However, evidence for recent genetic adaptation is scarce because classical methods and statistics are ill-suited for short time frames.</p>
 
-  
-<nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li>
-    
-      
-        <li class="page-item active"><a class="page-link" href="/blog/index.html" title="blank">1</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="blank - page 2">2</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/3/index.html" title="blank - page 3">3</a></li>
-      
-    
-    <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
+<p>Human migrations also brought previously separated populations together and formed new populations with genetic ancestry from both—termed “admixed populations” (e.g. in the Americas, the Middle East, and South Asia). Admixed populations provide a unique opportunity to study recent human adaptation. A source population can contribute beneficial mutations if it is previously adapted to an environment similar to that of the newly admixed population. Thus, by already having a beneficial mutation in the gene pool, the admixed population is primed to adapt quickly to its new environment.</p>
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/admixture_diagrams-13.jpg" alt="" title="example image" />
+    </div>
+</div>
+<div class="caption">
+    Diagram displaying chromosomes sampled from populations. Left: neutral scenario; right: selection scenario. Chromosomes are painted by genetic ancestry. A source population (red or blue) can provide a beneficial allele (green) to a recently admixed population. After some generations, the beneficial allele will quickly rise in frequency and alter the patterns of genetic ancestry along the chromosome beyond neutral expectations.
+</div>
 
+<p>Although admixed populations are common among modern human populations, there are few methods to confidently detect genetic signatures of adaptation in these groups. There is need for analyses tailored to these populations to characterize adaptation ongoing in humans and its impact on genetic variation or disease risk.</p>
+
+<p>Instead of using classical methods, my work leverages genetic ancestry information. In our <a href="https://elifesciences.org/articles/63177" target="_blank">recently published study</a>, we designed new statistics and a combination of computational methods specific to populations with mixed ancestry. Using these novel methods, we detected evidence of adaptation to malaria in just 20 generations (~500 years) in the human population of Cabo Verde. This constituted one of the strongest strengths of selection ever recorded in human history.</p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/elife-fig2c.png" alt="" title="example image" />
+    </div>
+</div>
+<div class="caption">
+    Fig. 2c from  <a href="https://elifesciences.org/articles/63177" target="_blank">Hamid et al. 2021</a>. Using our new ancestry-based summary statistic, <i>iDAT</i>, which is designed to detect signatures of recept adaptation in admixed populations, we find that the malaria protective <i>DARC</i> locus (red dot) is an outlier in a genome-wide scan for selection.
+</div>
+
+<p>This research has been featured in the press:</p>
+
+<ul>
+  <li><a href="https://today.duke.edu/2021/01/malaria-threw-human-evolution-overdrive-african-archipelago" target="_blank">Malaria threw human evolution into overdrive on this African archipelago</a>, 2021</li>
+  <li><a href="https://www.newscientist.com/article/2254915-people-in-cape-verde-evolved-better-malaria-resistance-in-550-years/" target="_blank">People in Cape Verde evolved better malaria resistance in 550 years</a>, 2020</li>
+</ul>
+
+<p>The next steps for this project include extending these methods to other admixed populations, comparing the dynamics of our new statistics and classical statistics in admixed populations to better understand their respective limitations, and <a href="https://imanhamid.github.io/projects/selection_scan">designing computer vision methods</a> that leverage ancesty information for genome-wide scans for variants under selection.</p>
+
+  </article>
 
 </div>
+
     </div>
 
     <!-- Footer -->
